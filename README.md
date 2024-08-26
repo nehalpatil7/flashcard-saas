@@ -4,7 +4,7 @@
 
 This project is an AI-powered Flashcards app.
 
-![Dashboard Screenshot](pantry_tracker_homepage.png)
+![Dashboard Screenshot](flashcard_saas_homepage.png)
 
 ## 🌟 Features
 
@@ -26,7 +26,7 @@ This project is an AI-powered Flashcards app.
 
 ## 🚀 Live Demo
 
-Check out the live demo deployed on Vercel: [\[Click Here!\]](https://inventory-management-ochre.vercel.app/)
+Check out the live demo deployed on Vercel: [\[Click Here!\]]()
 
 ## 🏁 Getting Started
 
@@ -64,10 +64,14 @@ NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET_NAME=your_firebase_storage_bucket
 FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
 FIREBASE_APP_ID=your_firebase_app_id
 FIREBASE_MEASUREMENT_ID=your_firebase_measurement_id
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=your_stripe_publishable_key
+STRIPE_SECRET_KEY=your_stripe_secret_key
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_public_key
+CLERK_SECRET_KEY=your_clerk_secret_key
 ```
 
 
-Replace the placeholder values (`your_firebase_api_key`, `your_firebase_auth_domain`, etc.) with your actual Firebase and OpenRouter credentials.
+Replace the placeholder values (`your_firebase_api_key`, `your_stripe_secret_key`, etc.) with your actual Firebase and OpenRouter credentials.
 
 To set up your Firebase project and obtain these credentials:
 i. Go to the [Firebase Console](https://console.firebase.google.com/)
@@ -107,8 +111,6 @@ npm run build
 ```
 
 4. For OpenAI API issues, verify that your API key is correctly set in the `.env.local` file and that you have sufficient credits in your OpenAI account.
-
-6. If you're encountering CORS issues with the OpenAI API, ensure that your serverless function (in `pages/api/object-detection.js`) is correctly configured to handle the API request.
 
 
 ## 👤 Author
