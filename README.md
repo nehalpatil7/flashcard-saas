@@ -5,6 +5,8 @@
 This project is an AI-powered Flashcards app.
 
 ![Dashboard Screenshot](flashcard_saas_homepage.png)
+![Generate page Screenshot](flashcard_saas_generate.png)
+![Preview page Screenshot](flashcard_saas_preview.png)
 
 ## 🌟 Features
 
