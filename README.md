@@ -31,7 +31,7 @@ This project is an AI-powered Flashcards app.
 
 ## 🚀 Live Demo
 
-Check out the live demo deployed on Vercel: [\[Click Here!\]]()
+Check out the video demo of the application on YouTube: [\[Click Here!\]](https://youtu.be/HtM2SMNDGn0)
 
 ## 🏁 Getting Started
 
