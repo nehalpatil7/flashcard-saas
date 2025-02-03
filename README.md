@@ -21,6 +21,9 @@ This project is an AI-powered Flashcards app.
 - Responsive design for various screen sizes
 
 ## 🛠️ Technologies Used
+<p align="center">
+    <img src="https://skillicons.dev/icons?i=git,ai,js,nextjs,react,html,tailwind,materialui,firebase" />
+</p>
 
 - [Next.js](https://nextjs.org/)
 - [React](https://reactjs.org/)
